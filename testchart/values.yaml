@@ -4,11 +4,12 @@
 
 replicaCount: 1
 
-image:
-  repository: giacomoaluigi/simple-web-app
-  pullPolicy: Always
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: 0.2.0
+simple-web-app:
+  image:
+    repository: giacomoaluigi/simple-web-app
+    pullPolicy: Always
+    # Overrides the image tag whose default is the chart appVersion.
+    tag: 0.2.0
 
 imagePullSecrets: []
 nameOverride: ""
